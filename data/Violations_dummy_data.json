@@ -1,0 +1,109 @@
+[{
+  "violation_id": "4",
+  "driver_id": "5",
+  "violation_date": "2018-08-15",
+  "violation_type": "Failure to Stop",
+  "severity": "Minor",
+  "points": "1",
+  "fine_amount": "120.0",
+  "court_required": "false"
+}, {
+  "violation_id": "9",
+  "driver_id": "13",
+  "violation_date": "2021-06-14",
+  "violation_type": "Seatbelt Violation",
+  "severity": "Minor",
+  "points": "1",
+  "fine_amount": "80.0",
+  "court_required": "false"
+}, {
+  "violation_id": "1",
+  "driver_id": "1",
+  "violation_date": "2020-05-01",
+  "violation_type": "Speeding 15mph over",
+  "severity": "Minor",
+  "points": "2",
+  "fine_amount": "150.0",
+  "court_required": "false"
+}, {
+  "violation_id": "2",
+  "driver_id": "2",
+  "violation_date": "2021-03-12",
+  "violation_type": "Red Light Violation",
+  "severity": "Minor",
+  "points": "2",
+  "fine_amount": "200.0",
+  "court_required": "false"
+}, {
+  "violation_id": "12",
+  "driver_id": "20",
+  "violation_date": "2021-08-22",
+  "violation_type": "Speeding 10mph over",
+  "severity": "Minor",
+  "points": "2",
+  "fine_amount": "100.0",
+  "court_required": "false"
+}, {
+  "violation_id": "11",
+  "driver_id": "18",
+  "violation_date": "2019-02-28",
+  "violation_type": "Careless Driving",
+  "severity": "Major",
+  "points": "3",
+  "fine_amount": "600.0",
+  "court_required": "false"
+}, {
+  "violation_id": "6",
+  "driver_id": "7",
+  "violation_date": "2017-05-01",
+  "violation_type": "Reckless Driving",
+  "severity": "Major",
+  "points": "4",
+  "fine_amount": "800.0",
+  "court_required": "true"
+}, {
+  "violation_id": "8",
+  "driver_id": "12",
+  "violation_date": "2020-01-01",
+  "violation_type": "Speeding 30mph over",
+  "severity": "Major",
+  "points": "4",
+  "fine_amount": "500.0",
+  "court_required": "true"
+}, {
+  "violation_id": "3",
+  "driver_id": "3",
+  "violation_date": "2019-07-22",
+  "violation_type": "DUI",
+  "severity": "Severe",
+  "points": "6",
+  "fine_amount": "1500.0",
+  "court_required": "true"
+}, {
+  "violation_id": "5",
+  "driver_id": "6",
+  "violation_date": "2020-12-10",
+  "violation_type": "DUI",
+  "severity": "Severe",
+  "points": "6",
+  "fine_amount": "2000.0",
+  "court_required": "true"
+}, {
+  "violation_id": "7",
+  "driver_id": "10",
+  "violation_date": "2019-09-10",
+  "violation_type": "DUI",
+  "severity": "Severe",
+  "points": "6",
+  "fine_amount": "1800.0",
+  "court_required": "true"
+}, {
+  "violation_id": "10",
+  "driver_id": "15",
+  "violation_date": "2018-04-18",
+  "violation_type": "DUI",
+  "severity": "Severe",
+  "points": "6",
+  "fine_amount": "2200.0",
+  "court_required": "true"
+}]

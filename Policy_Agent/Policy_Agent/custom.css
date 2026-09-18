@@ -1,0 +1,398 @@
+/* ===================================================
+   LOCAL CUSTOM STYLES
+   =================================================== */
+
+
+/* ===================================================
+   1. HIDE STREAMLIT HEADER
+   =================================================== */
+
+header[data-testid="stHeader"] {
+    display: none !important;
+}
+
+
+/* ===================================================
+   2. MAIN PAGE / CONTAINER
+   =================================================== */
+
+.block-container {
+    padding-top: 0.5rem !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 100% !important;
+}
+
+
+/* ===================================================
+   3. PROGRESS TRACKER
+   =================================================== */
+
+.progress-tracker {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 3px 0;
+    padding: 5px 8px;
+
+    background: rgba(248, 249, 250, 0.05);
+
+    border-radius: 8px;
+
+    backdrop-filter: blur(10px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.agent-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    font-size: 0.75em;
+}
+
+.progress-circle {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+
+    margin-bottom: 3px;
+
+    border: 2px solid;
+
+    transition: all 0.3s ease;
+}
+
+.progress-circle.pending {
+    background: rgba(255, 255, 255, 0.1);
+
+    border-color: rgba(222, 226, 230, 0.5);
+
+    color: #6c757d;
+}
+
+.progress-circle.active {
+    background: var(--primary-color);
+
+    border-color: var(--primary-color);
+
+    color: white;
+
+    animation: pulse 1.5s infinite;
+
+    box-shadow: 0 0 10px rgba(53, 184, 255, 0.5);
+}
+
+.progress-circle.completed {
+    background: var(--success-color);
+
+    border-color: var(--success-color);
+
+    color: white;
+
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
+}
+
+.agent-name {
+    font-size: 10px;
+
+    text-align: center;
+
+    font-weight: 500;
+
+    max-width: 60px;
+
+    color: #ddd;
+
+    min-height: 2em;
+
+    display: flex;
+
+    align-items: flex-start;
+
+    justify-content: center;
+}
+
+.connector {
+    flex: 1;
+
+    height: 2px;
+
+    margin: 0 5px;
+
+    margin-bottom: 20px;
+
+    border-radius: 1px;
+}
+
+.connector.completed {
+    background: var(--success-color);
+}
+
+.connector.pending {
+    background: rgba(222, 226, 230, 0.3);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* ===================================================
+   4. DASHBOARD
+   =================================================== */
+
+.dashboard-data-outline {
+    max-width: 500px;
+
+    max-height: 350px;
+
+    overflow-y: auto;
+
+    border-radius: 15px;
+
+    background: rgba(248, 249, 250, 0.05);
+
+    box-shadow: 0 0 20px rgba(53, 184, 255, 0.14);
+
+    padding: 18px 15px;
+
+    margin-bottom: 22px;
+
+    margin-top: 22px;
+
+    border: 2px solid rgba(53, 184, 255, 0.35);
+}
+
+.dashboard-title {
+    color: var(--primary-color);
+
+    font-weight: 700;
+
+    font-size: 1.22rem;
+
+    margin-bottom: 14px;
+
+    border-bottom: 2px solid var(--primary-color);
+
+    padding-bottom: 10px;
+}
+
+.veh-title {
+    color: var(--primary-color);
+
+    font-weight: bold;
+
+    margin: 13px 0 5px 0;
+
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+
+    padding-bottom: 5px;
+}
+
+.info-label {
+    font-weight: 500;
+    color: #aaa;
+}
+
+.info-value {
+    font-weight: 600;
+    color: #fff;
+
+    padding-left: 10px;
+}
+
+.info-row {
+    margin-bottom: 9px;
+
+    font-size: 1rem;
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.hist-table td {
+    padding: 2px 8px 2px 0;
+}
+
+th {
+    text-align: left;
+
+    color: var(--primary-color);
+
+    padding-right: 15px;
+}
+
+td {
+    text-align: right;
+}
+
+
+/* ===================================================
+   5. ACTIVITY LOG
+   =================================================== */
+
+.activity-popover-panel {
+    max-width: 500px;
+
+    max-height: 700px;
+
+    overflow-y: auto;
+
+    border-radius: 15px;
+
+    background: rgba(248, 249, 250, 0.05);
+
+    box-shadow: 0 0 20px rgba(53, 184, 255, 0.14);
+
+    padding: 18px 15px;
+
+    margin-bottom: 22px;
+
+    margin-top: 22px;
+
+    border: 2px solid rgba(53, 184, 255, 0.35);
+}
+
+
+/* ===================================================
+   6. CHAT BUTTONS
+   =================================================== */
+
+button[key="reset_button_chat"],
+button[key="download_pdf_chat"] {
+    padding: 0.3rem 1rem !important;
+
+    height: 30px !important;
+
+    min-width: 80px !important;
+
+    line-height: 1 !important;
+
+    font-size: 0.85rem !important;
+
+    white-space: nowrap !important;
+}
+
+
+/* ===================================================
+   7. ACTIVITY LOG TOGGLE
+   =================================================== */
+
+button[key="toggle_activity"] {
+    padding: 0.3rem 0.6rem !important;
+
+    height: 30px !important;
+
+    min-width: 30px !important;
+
+    line-height: 1 !important;
+
+    font-size: 0.85rem !important;
+}
+
+
+/* ===================================================
+   8. SECONDARY BUTTONS
+   =================================================== */
+
+button[kind="secondary"],
+button[title="Reset Session"],
+button[data-testid="baseButton-secondary"],
+button[title="Download Chat"],
+button[aria-label="Download Chat"],
+button[key="toggle_activity"],
+button[key="close_panel"],
+button[key="reset_button_chat"],
+button[key="download_pdf_chat"] {
+    background-color: #000000 !important;
+
+    color: var(--primary-color) !important;
+
+    border: 1.5px solid var(--primary-color) !important;
+
+    border-radius: 7px !important;
+
+    font-weight: 700 !important;
+
+    box-shadow: 0 1px 5px #0002 !important;
+}
+
+
+/* ===================================================
+   9. BUTTON HOVER
+   =================================================== */
+
+button:hover {
+    background-color: #1a1a1a !important;
+}
+
+
+/* ===================================================
+   10. DOWNLOAD BUTTONS
+   =================================================== */
+
+button[data-testid="stDownloadButton"] {
+    white-space: nowrap !important;
+}
+
+
+/* ===================================================
+   11. CHAT CONTAINER
+   =================================================== */
+
+/*
+   IMPORTANT:
+   No custom overflow/max-height rules here.
+
+   The chat history is controlled by:
+
+       st.container(
+           height=420,
+           border=True,
+           autoscroll=True
+       )
+
+   in app.py.
+
+   This prevents the chat history from escaping
+   underneath st.chat_input().
+*/
+
+
+/* ===================================================
+   12. TITLE
+   =================================================== */
+
+/*
+   Do not apply overflow or positioning rules to
+   Streamlit's internal vertical/horizontal blocks.
+   The title layout is controlled by app.py.
+*/
+
+
+/* ===================================================
+   END OF LOCAL CUSTOM STYLES
+   =================================================== */

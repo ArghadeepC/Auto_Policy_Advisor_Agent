@@ -1,0 +1,53 @@
+[
+  {
+    "vin": "1HGFA16526L123456",
+    "license": "IL11122",
+    "cust_id": "CUST001",
+    "f_name": "Michael",
+    "l_name": "Brown",
+    "policy_start_date": "2025-06-24",
+    "policy_end_date": "2026-06-23",
+    "base_premium": "2123.82",
+    "add_ons_amount": "40",
+    "discount": "10",
+    "final_premium_amount": "\t1947.44",
+    "add_ons": "Roadside",
+    "policy_type": "Liability Only",
+    "email": "arghadeep340@gmail.com",
+    "ph_no": "1234567890"
+  },
+  {
+    "vin": "2G1WF52E459123456",
+    "license": "PA44556",
+    "cust_id": "CUST002",
+    "f_name": "Mia",
+    "l_name": "Rodriguez",
+    "policy_start_date": "2025-08-02",
+    "policy_end_date": "2026-07-30",
+    "base_premium": "2879.82",
+    "add_ons_amount": "40",
+    "discount": "10",
+    "final_premium_amount": "2627.84",
+    "add_ons": "Roadside",
+    "policy_type": "Comprehensive",
+    "email": "arghadeep340@gmail.com",
+    "ph_no": "1234567890"
+  },
+  {
+    "vin": "1FTSW21P56EB12345",
+    "license": "CO66123",
+    "cust_id": "CUST003",
+    "f_name": "Lucas",
+    "l_name": "King",
+    "policy_start_date": "2025-06-14",
+    "policy_end_date": "2026-06-12",
+    "base_premium": null,
+    "add_ons_amount": null,
+    "discount": null,
+    "final_premium_amount": null,
+    "add_ons": null,
+    "policy_type": null,
+    "email": "arghadeep340@gmail.com",
+    "ph_no": "1234567890"
+  }
+]
