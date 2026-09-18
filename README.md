@@ -92,7 +92,7 @@ From the repository root: (Policy_Agent\Policy_Agent>)
 ```bash
 streamlit run ui.py
 ```
-
+Example Prompts:  shared in Example_prompts.txt file
 ---
 
 ## Sample Inputs

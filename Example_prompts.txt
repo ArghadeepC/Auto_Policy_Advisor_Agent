@@ -1,0 +1,21 @@
+Sample Prompts to Interact with the Agent
+
+User: Hi
+User: CUST001
+User: Yes
+User: Yes
+User: Okay, go with the recommended plan.
+User: Yes
+User: Yes
+User: Card details: **** **** **** **02, 08/27, 123
+User: Yes
+User: Yes
+User: I want to change my email ID.
+User: <Provide the new email ID>
+
+Note: In some cases, the agent may require the user to continue the conversation or provide confirmation 
+again due to security-related handling of payment information. (Might halluciante)
+
+Expected Outcome:
+The agent completes the policy issuance process, generates the Payment Receipt PDF and Policy Document PDF, 
+and provides confirmation in the application. The finalized policy details are also sent to the user's provided email address.
