@@ -146,6 +146,8 @@ The model may sometimes generate incorrect or unexpected information, so importa
 2. Local email attachment limitation
 
 In the local setup, PDF files are generated on the user's machine, and the email functionality may occasionally fail to attach these local files correctly.
+Also can't share the email app password. That's why email functionalities will not work for local testing....  
+But if anyone wants to generate a mail they can create a Gmail app password (own gmail account) and change the sender email and password values in  .env and use it.
 
 3. Cloud deployment dependency
 
