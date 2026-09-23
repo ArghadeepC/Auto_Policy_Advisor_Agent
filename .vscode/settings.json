@@ -1,0 +1,5 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:venv",
+    "python.terminal.useEnvFile": true,
+    "python.defaultInterpreterPath": ".test_policy/Scripts/python.exe"
+}

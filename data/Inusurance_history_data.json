@@ -1,0 +1,136 @@
+[{
+  "history_id": "7",
+  "driver_id": "7",
+  "insurer_name": "Progressive",
+  "policy_number": "P66666",
+  "coverage_type": "Full Coverage",
+  "start_date": "2016-01-01",
+  "end_date": "2017-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "5",
+  "driver_id": "5",
+  "insurer_name": "Geico",
+  "policy_number": "P44444",
+  "coverage_type": "Full Coverage",
+  "start_date": "2017-01-01",
+  "end_date": "2018-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "12",
+  "driver_id": "15",
+  "insurer_name": "Geico",
+  "policy_number": "P10002",
+  "coverage_type": "Full Coverage",
+  "start_date": "2017-01-01",
+  "end_date": "2018-01-01",
+  "lapse": "true"
+}, {
+  "history_id": "1",
+  "driver_id": "1",
+  "insurer_name": "Geico",
+  "policy_number": "P11111",
+  "coverage_type": "Full Coverage",
+  "start_date": "2018-01-01",
+  "end_date": "2019-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "9",
+  "driver_id": "10",
+  "insurer_name": "StateFarm",
+  "policy_number": "P88888",
+  "coverage_type": "Full Coverage",
+  "start_date": "2018-01-01",
+  "end_date": "2019-01-01",
+  "lapse": "true"
+}, {
+  "history_id": "4",
+  "driver_id": "3",
+  "insurer_name": "Allstate",
+  "policy_number": "P33333",
+  "coverage_type": "Liability",
+  "start_date": "2019-01-01",
+  "end_date": "2020-01-01",
+  "lapse": "true"
+}, {
+  "history_id": "6",
+  "driver_id": "6",
+  "insurer_name": "StateFarm",
+  "policy_number": "P55555",
+  "coverage_type": "Liability",
+  "start_date": "2019-01-01",
+  "end_date": "2020-01-01",
+  "lapse": "true"
+}, {
+  "history_id": "8",
+  "driver_id": "8",
+  "insurer_name": "Geico",
+  "policy_number": "P77777",
+  "coverage_type": "Liability",
+  "start_date": "2019-01-01",
+  "end_date": "2020-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "13",
+  "driver_id": "18",
+  "insurer_name": "Allstate",
+  "policy_number": "P10003",
+  "coverage_type": "Liability",
+  "start_date": "2019-01-01",
+  "end_date": "2020-01-01",
+  "lapse": "true"
+}, {
+  "history_id": "2",
+  "driver_id": "1",
+  "insurer_name": "StateFarm",
+  "policy_number": "P11112",
+  "coverage_type": "Liability",
+  "start_date": "2019-02-01",
+  "end_date": "2020-02-01",
+  "lapse": "false"
+}, {
+  "history_id": "3",
+  "driver_id": "2",
+  "insurer_name": "Progressive",
+  "policy_number": "P22222",
+  "coverage_type": "Full Coverage",
+  "start_date": "2020-01-01",
+  "end_date": "2021-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "10",
+  "driver_id": "12",
+  "insurer_name": "Allstate",
+  "policy_number": "P99999",
+  "coverage_type": "Liability",
+  "start_date": "2020-01-01",
+  "end_date": "2021-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "14",
+  "driver_id": "19",
+  "insurer_name": "StateFarm",
+  "policy_number": "P10004",
+  "coverage_type": "Full Coverage",
+  "start_date": "2020-01-01",
+  "end_date": "2021-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "11",
+  "driver_id": "13",
+  "insurer_name": "Progressive",
+  "policy_number": "P10001",
+  "coverage_type": "Liability",
+  "start_date": "2021-01-01",
+  "end_date": "2022-01-01",
+  "lapse": "false"
+}, {
+  "history_id": "15",
+  "driver_id": "20",
+  "insurer_name": "Progressive",
+  "policy_number": "P10005",
+  "coverage_type": "Liability",
+  "start_date": "2021-01-01",
+  "end_date": "2022-01-01",
+  "lapse": "false"
+}]

@@ -1,0 +1,112 @@
+[
+  {
+    "accident_id": "5",
+    "driver_id": "7",
+    "vin": "1N4AL11D75C123456",
+    "accident_date": "2016-12-12",
+    "location": "Las Vegas, NV",
+    "fault": "At-fault",
+    "injuries": "0",
+    "fatalities": "1",
+    "report_number": "RPT33333"
+  },
+  {
+    "accident_id": "1",
+    "driver_id": "1",
+    "vin": "1HGCM82633A004352",
+    "accident_date": "2019-06-15",
+    "location": "Los Angeles, CA",
+    "fault": "At-fault",
+    "injuries": "1",
+    "fatalities": "0",
+    "report_number": "RPT12345"
+  },
+  {
+    "accident_id": "6",
+    "driver_id": "10",
+    "vin": "1FAFP40412F123456",
+    "accident_date": "2019-09-09",
+    "location": "Phoenix, AZ",
+    "fault": "At-fault",
+    "injuries": "1",
+    "fatalities": "0",
+    "report_number": "RPT44444"
+  },
+  {
+    "accident_id": "9",
+    "driver_id": "18",
+    "vin": "4T1BF28B44U123456",
+    "accident_date": "2019-05-25",
+    "location": "Boston, MA",
+    "fault": "At-fault",
+    "injuries": "1",
+    "fatalities": "0",
+    "report_number": "RPT77777"
+  },
+  {
+    "accident_id": "3",
+    "driver_id": "3",
+    "vin": "1J4GZB8S7WY123456",
+    "accident_date": "2018-05-05",
+    "location": "Houston, TX",
+    "fault": "At-fault",
+    "injuries": "2",
+    "fatalities": "0",
+    "report_number": "RPT11111"
+  },
+  {
+    "accident_id": "8",
+    "driver_id": "15",
+    "vin": "1HGCM82633A004999",
+    "accident_date": "2018-02-20",
+    "location": "Atlanta, GA",
+    "fault": "At-fault",
+    "injuries": "2",
+    "fatalities": "0",
+    "report_number": "RPT66666"
+  },
+  {
+    "accident_id": "2",
+    "driver_id": "2",
+    "vin": "2FTRX18W1XCA12345",
+    "accident_date": "2020-10-20",
+    "location": "New York, NY",
+    "fault": "Not at-fault",
+    "injuries": "0",
+    "fatalities": "0",
+    "report_number": "RPT67890"
+  },
+  {
+    "accident_id": "7",
+    "driver_id": "12",
+    "vin": "1N6AD07U98C123456",
+    "accident_date": "2020-01-15",
+    "location": "Columbus, OH",
+    "fault": "Not at-fault",
+    "injuries": "0",
+    "fatalities": "0",
+    "report_number": "RPT55555"
+  },
+  {
+    "accident_id": "10",
+    "driver_id": "19",
+    "vin": "1G1ZT54855F123456",
+    "accident_date": "2021-07-07",
+    "location": "Denver, CO",
+    "fault": "Not at-fault",
+    "injuries": "0",
+    "fatalities": "0",
+    "report_number": "RPT88888"
+  },
+  {
+    "accident_id": "4",
+    "driver_id": "5",
+    "vin": "1HGFA16526L123456",
+    "accident_date": "2025-11-11",
+    "location": "Chicago, IL",
+    "fault": "Shared",
+    "injuries": "0",
+    "fatalities": "0",
+    "report_number": "RPT22222"
+  }
+]
